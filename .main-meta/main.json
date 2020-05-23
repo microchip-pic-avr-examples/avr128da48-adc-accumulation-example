@@ -1,0 +1,55 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.mplabx.project.avr128da48-adc-accumulation-example",
+        "version": "1.0.1",
+        "displayName": "AVR128DA48 ADC Accumulation Example",
+        "projectName": "avr128da48-adc-accumulation-example",
+        "shortDescription": "This example shows how an ADC accumulation can be made using the 12-bit ADC peripheral on the new AVR-DA family",
+        "ide": {
+            "name": "Atmel Studio",
+            "semverRange": ">=7.0.2397"
+        },
+        "compiler": [
+            {"name": "gcc", "semverRange": "^5.4.0"}
+        },
+        "dfp": {
+            "name": "AVR_DX_DFP",
+            "semverRange": "^1.0.18"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "AVR128DA48",
+                "versionRange": "*"
+            }
+        },
+        "author": "MCU8 Library Development Team",
+        "subcategories": [
+            "AVR-DA"
+        ],
+        "peripherals": [
+            "Interrupt","ADC"
+        ],
+        "keywords": [
+            "Curiosity Nano",
+            "Pod Click",
+        ]
+    },
+    "additionalData": {
+        "longDescription": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.fileRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "fileName": "./README.md",
+                "mimeType": "text/markdown"
+            }
+        }
+    }
+}
