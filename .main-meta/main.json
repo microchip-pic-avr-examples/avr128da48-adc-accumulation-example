@@ -14,7 +14,7 @@
         },
         "compiler": [
             {"name": "gcc", "semverRange": "^5.4.0"}
-        },
+        ],
         "dfp": {
             "name": "AVR_DX_DFP",
             "semverRange": "^1.0.18"
@@ -39,8 +39,7 @@
         "keywords": [
             "Curiosity Nano",
             "Pod Click",
-        ]
-    },
+        ],
     "additionalData": {
         "longDescription": {
             "metaDataVersion": "1.0.0",
@@ -52,4 +51,5 @@
             }
         }
     }
+    
 }
