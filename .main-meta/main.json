@@ -13,7 +13,7 @@
             "semverRange": ">=7.0.2397"
         },
         "compiler": [
-            {"name": "gcc", "semverRange": "^5.4.0"}
+            {"name": "AVR GCC", "semverRange": "^5.4.0"}
         ],
         "dfp": {
             "name": "AVR_DX_DFP",
