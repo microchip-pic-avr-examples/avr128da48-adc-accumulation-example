@@ -9,7 +9,7 @@
         "projectName": "avr128da48-adc-accumulation-example",
         "shortDescription": "This example shows how an ADC accumulation can be made using the 12-bit ADC peripheral on the new AVR-DA family",
         "ide": {
-            "name": "Atmel Studio",
+            "name": "STUDIO",
             "semverRange": ">=7.0.2397"
         },
         "compiler": [
@@ -18,6 +18,10 @@
         "dfp": {
             "name": "AVR_DX_DFP",
             "semverRange": "^1.0.18"
+        },
+        "configurator": {
+            "name": "N/A",
+            "semverRange": ""
         },
         "device": {
             "metaDataVersion": "1.0.0",
