@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.avr128da48-adc-accumulation-example",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "displayName": "AVR128DA48 ADC Accumulation Example",
         "projectName": "avr128da48-adc-accumulation-example",
         "shortDescription": "This example shows how an ADC accumulation can be made using the 12-bit ADC peripheral on the new AVR-DA family",
@@ -29,15 +29,16 @@
                 "versionRange": "*"
             }
         },
-        "author": "MCU8 Library Development Team",
+        "author": "Microchip",
         "subcategories": [
-            "AVR-DA"
+          [
+            "Peripherals","ADC"
+          ]
         ],
         "peripherals": [
-            "Interrupt","ADC"
+          "ADC"
         ],
         "keywords": [
-            "Curiosity Nano",
             "Pod Click"
         ],
     "additionalData": {
@@ -51,6 +52,6 @@
             }
         }
     }
-    
+
 	}
 }
