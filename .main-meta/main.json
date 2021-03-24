@@ -5,16 +5,19 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.avr128da48-adc-accumulation-example",
         "version": "1.0.2",
-        "displayName": "AVR128DA48 ADC Accumulation Example",
+        "displayName": "ADC Hardware Accumulation Showcase",
         "projectName": "avr128da48-adc-accumulation-example",
-        "shortDescription": "This example shows how an ADC accumulation can be made using the 12-bit ADC peripheral on the new AVR-DA family",
+        "shortDescription": "In this demo, a POT click board will be attached to the mikroBus socket #1 of a Curiosity Nano Adapter and the analog value provided by the potentiometer will be read using AIN3 channel, corresponding to PD3 pin",
         "ide": {
             "name": "STUDIO",
             "semverRange": ">=7.0.2397"
         },
         "compiler": [
-            {"name": "AVR GCC", "semverRange": "^5.4.0"}
-        ],
+						{
+							"name": "AVR GCC",
+							"semverRange": "^5.4.0"
+						}
+					],
         "dfp": {
             "name": "AVR_DX_DFP",
             "semverRange": "^1.0.18"
@@ -36,14 +39,15 @@
         "author": "Microchip",
         "subcategories": [
           [
-            "Peripherals","ADC"
+            "Peripherals",
+			"ADC"
           ]
         ],
         "peripherals": [
           "ADC"
         ],
         "keywords": [
-            "Pod Click"
+            "Accumulation"
         ],
     "additionalData": {
         "longDescription": {
